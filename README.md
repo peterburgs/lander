@@ -32,7 +32,7 @@ Path to file:
 ./src/lander_after (or lander_before)/lunar_lander.ipynb
 ```
 
-![File](https://github.com/peterburgs/lander/blob/master/src/img/lunar-lander.ipynb.png)
+![File](https://github.com/peterburgs/lander/blob/master/src/img/file.png)
 
 You can run the code in training or testing mode.
 ![Train||Test](https://github.com/peterburgs/lander/blob/master/src/img/train-test.png)
