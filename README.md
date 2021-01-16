@@ -19,6 +19,7 @@ $ pip install Box2D
 ## Run this project in JupyterLab
 
 We work with JupyterLab version 2.2.6 installed in Anaconda. Make sure your python is version 3.7.
+
 ![JupyterLab](https://github.com/peterburgs/lander/blob/master/src/img/anaconda.png)
 
 There are 2 folders:
@@ -35,6 +36,7 @@ Path to file:
 ![File](https://github.com/peterburgs/lander/blob/master/src/img/file.png)
 
 You can run the code in training or testing mode.
+
 ![Train||Test](https://github.com/peterburgs/lander/blob/master/src/img/train-test.png)
 
 - To train the agent, make sure the `TRAINING` constant is set to `True`.
@@ -85,8 +87,11 @@ Finally, the above chart shows the results obtained by the agent after training 
 ## Some images when run the project
 
 Lander after being trained could land successfully.
+
 ![success](https://github.com/peterburgs/lander/blob/master/src/img/lander-success.png)
+
 Lander before being trained usually crashes when landing.
+
 ![success](https://github.com/peterburgs/lander/blob/master/src/img/lander-fail.png)
 
 ## References
