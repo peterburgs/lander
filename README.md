@@ -90,8 +90,18 @@ Lander before being trained usually crashes when landing.
 
 ## References
 
-V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski, S. Petersen, C. Beattie, A. Sadik, I. Antonoglou, H. King, D. Kumaran, D. Wierstra, S. Legg, and D. Hassabis. _Human-level Control Through Deep Reinforcement Learning._ (2015). Nature, 518(7540):529–533. http://dx.doi.org/10.1038/nature14236.
+Automatic identification of fossils and abiotic grains .... https://arxiv.org/pdf/2009.11429
 
-T. Lillicrap, J. Hunt, A. Pritzel, N. Heess, T. Erez, Y. Tassa, D. Silver, and D. Wierstra. _Continuous Control With Deep Reinforcement Learning._ (2015). arXiv preprint arXiv:1509.02971.
+Neural networks and deep learning. http://neuralnetworksanddeeplearning.com/chap1.html
 
-R. Liu, J. Zou. _The Effects of Memory Replay in Reinforcement Learning._ (2017). arXiv:1710.06574.
+Neural networks and deep learning. http://neuralnetworksanddeeplearning.com/chap1.html
+
+Introduction to Neural Networks: Part 2 | by Syed Faraaz .... https://codeburst.io/introduction-to-neural-networks-part-2-d85eb772e5e
+
+Neural networks and deep learning. http://neuralnetworksanddeeplearning.com/chap1.html
+
+Introduction to RL and Deep Q Networks | TensorFlow Agents. https://www.tensorflow.org/agents/tutorials/0_intro_rl
+
+Deep Q-Learning | An Introduction To Deep Reinforcement .... https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/
+
+GitHub - svpino/lunar-lander: OpenAI Gym's LunarLander-v2 .... https://github.com/svpino/lunar-lander/
