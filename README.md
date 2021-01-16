@@ -78,12 +78,6 @@ Here is a look at the individual reward obtained by our agent while training usi
 
 ![Rewards per training episode — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/peterburgs/lander/blob/master/src/img/chart3.png)
 
-Notice how the behavior of the agent is very erratic during the first three thousand iterations, but as it gets closer to the end, it becomes less intermittent because it starts exploiting what it has learned.
-
-![Reward obtained when testing the agent using the learned weights during 100 episodes — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/peterburgs/lander/blob/master/src/img/chart4.png)
-
-Finally, the above chart shows the results obtained by the agent after training is complete. In this case, the agent was run three times, and the individual episode reward was plotted. Notice how no crashes happened during the 100 episodes for any of the runs indicating the training process was successful and our agent solved the environment. The average reward for each run, as shown in the legend of the chart, was 209, 213, and 216.
-
 ## Some images when run the project
 
 Lander after being trained could land successfully.
