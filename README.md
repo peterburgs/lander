@@ -19,6 +19,7 @@ $ pip install Box2D
 ## Run this project in JupyterLab
 
 We work with JupyterLab version 2.2.6 installed in Anaconda. Make sure your python is version 3.7.
+![JupyterLab](https://github.com/peterburgs/lander/blob/master/src/img/anaconda.png)
 
 There are 2 folders:
 
@@ -31,7 +32,10 @@ Path to file:
 ./src/lander_after (or lander_before)/lunar_lander.ipynb
 ```
 
+![File](https://github.com/peterburgs/lander/blob/master/src/img/lunar-lander.ipynb.png)
+
 You can run the code in training or testing mode.
+![Train||Test](https://github.com/peterburgs/lander/blob/master/src/img/train-test.png)
 
 - To train the agent, make sure the `TRAINING` constant is set to `True`.
 - Setting the `TRAINING` constant to `False` will run the simulator using the previously saved weights. I included as part of this repository a set of weights that can be used to test the agent without needing to train it first (inside the `/weights` folder).
@@ -70,13 +74,20 @@ Feel free to change these values or include your own. Whatever it takes to make 
 
 Here is a look at the individual reward obtained by our agent while training using the best set of hyperparameters selected from the previous experiments. The accumulated reward is also displayed for context:
 
-![Rewards per training episode — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/svpino/lunar-lander/blob/master/images/chart3.png)
+![Rewards per training episode — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/peterburgs/lander/blob/master/src/img/chart3.png)
 
 Notice how the behavior of the agent is very erratic during the first three thousand iterations, but as it gets closer to the end, it becomes less intermittent because it starts exploiting what it has learned.
 
-![Reward obtained when testing the agent using the learned weights during 100 episodes — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/svpino/lunar-lander/blob/master/images/chart4.png)
+![Reward obtained when testing the agent using the learned weights during 100 episodes — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/peterburgs/lander/blob/master/src/img/chart4.png)
 
 Finally, the above chart shows the results obtained by the agent after training is complete. In this case, the agent was run three times, and the individual episode reward was plotted. Notice how no crashes happened during the 100 episodes for any of the runs indicating the training process was successful and our agent solved the environment. The average reward for each run, as shown in the legend of the chart, was 209, 213, and 216.
+
+## Some images when run the project
+
+Lander after being trained could land successfully.
+![success](https://github.com/peterburgs/lander/blob/master/src/img/lander-success.png)
+Lander before being trained usually crashes when landing.
+![success](https://github.com/peterburgs/lander/blob/master/src/img/lander-fail.png)
 
 ## References
 
