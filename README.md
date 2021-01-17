@@ -76,17 +76,24 @@ Feel free to change these values or include your own. Whatever it takes to make 
 
 Here is a look at the individual reward obtained by our agent while training using the best set of hyperparameters selected from the previous experiments. The accumulated reward is also displayed for context:
 
-![Rewards per training episode — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/peterburgs/lander/blob/master/src/img/chart3.png)
+![Rewards per training episode — Using α=.0001, γ=.99, and ε = 0.99941](https://github.com/peterburgs/lander/blob/master/src/img/chart3.jpg)
+
+- After 3000 to 4000 episodes, the results quite good.
+- After 5000 episodes, the lander knows how to land successfully, 100 testing episodes show that more than 95 testing episodes are successful.
 
 ## Some images when run the project
 
-Lander after being trained could land successfully.
+`Before training: the lander always fail to land`
 
-![success](https://github.com/peterburgs/lander/blob/master/src/img/lander-success.png)
+![success](https://github.com/peterburgs/lander/blob/master/src/img/before.gif)
 
-Lander before being trained usually crashes when landing.
+`After training: the lander lands successfully`
 
-![success](https://github.com/peterburgs/lander/blob/master/src/img/lander-fail.png)
+![success](https://github.com/peterburgs/lander/blob/master/src/img/after.gif)
+
+`After training 5000 episodes: the result looks quite good, the average reward is more than 200 which is pretty excellent.`
+
+![success](https://github.com/peterburgs/lander/blob/master/src/img/training-result.gif)
 
 ## References
 

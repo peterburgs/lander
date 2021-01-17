@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
 			a = agent.choose_action(s)
 			s_, r, is_terminal, info = env.step(a)
-
+			print(info)
 			current_reward += r
 
 			agent.store(s, a, r, s_, is_terminal)
